@@ -5,6 +5,7 @@ on:
 
 jobs:
   build-ios:
+    permissions: write-all
     name: iOS build
     runs-on: macos-latest
     steps:
